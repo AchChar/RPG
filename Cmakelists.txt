@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(rpg)
+set(SRC main.cpp Personnage.cpp Personnage.h Aventurier.cpp Aventurier.h Arme.cpp Arme.h Monstre.cpp Monstre.h Objet.cpp Objet.h Bouclier.cpp Bouclier.h Maps.cpp Maps.h)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+add_executable(main ${SRC})

@@ -1,0 +1,3 @@
+/Users/Cachen/Desktop/rpg/CMakeFiles/rebuild_cache.dir
+/Users/Cachen/Desktop/rpg/CMakeFiles/edit_cache.dir
+/Users/Cachen/Desktop/rpg/CMakeFiles/main.dir
