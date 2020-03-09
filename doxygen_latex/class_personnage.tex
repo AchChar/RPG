@@ -1,0 +1,68 @@
+\hypertarget{class_personnage}{}\doxysection{Personnage Class Reference}
+\label{class_personnage}\index{Personnage@{Personnage}}
+Inheritance diagram for Personnage\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_personnage}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_personnage_a4b06bfde13ce6833fdb86c86d1705717}\label{class_personnage_a4b06bfde13ce6833fdb86c86d1705717}} 
+{\bfseries Personnage} (std\+::string Nom, int Vie\+Perso, int Degats\+Arme, std\+::string Nom\+Arme, int Protection\+Bouclier, std\+::string Nom\+Bouclier)
+\item 
+\mbox{\Hypertarget{class_personnage_a0c4e3a57887414d369eb3a556776f6f5}\label{class_personnage_a0c4e3a57887414d369eb3a556776f6f5}} 
+{\bfseries Personnage} (\mbox{\hyperlink{class_personnage}{Personnage}} \&Copie)
+\item 
+\mbox{\Hypertarget{class_personnage_a05bdf2a469885bb1fbb6c2e8f98972ab}\label{class_personnage_a05bdf2a469885bb1fbb6c2e8f98972ab}} 
+\mbox{\hyperlink{class_personnage_a05bdf2a469885bb1fbb6c2e8f98972ab}{$\sim$\+Personnage}} ()
+\begin{DoxyCompactList}\small\item\em Destructeur de \mbox{\hyperlink{class_personnage}{Personnage}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_personnage_ab0262abb3af05325347b9f8d46f4089d}\label{class_personnage_ab0262abb3af05325347b9f8d46f4089d}} 
+void \mbox{\hyperlink{class_personnage_ab0262abb3af05325347b9f8d46f4089d}{recevoir\+Degats}} (int nb\+Degats)
+\begin{DoxyCompactList}\small\item\em Inflige des dégats au \mbox{\hyperlink{class_personnage}{Personnage}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_personnage_a387b26dc32ff2c0340475ebeb62ce820}\label{class_personnage_a387b26dc32ff2c0340475ebeb62ce820}} 
+void \mbox{\hyperlink{class_personnage_a387b26dc32ff2c0340475ebeb62ce820}{attaquer}} (\mbox{\hyperlink{class_personnage}{Personnage}} \&cible)
+\begin{DoxyCompactList}\small\item\em Permet à un \mbox{\hyperlink{class_personnage}{Personnage}} d\textquotesingle{}attaquer avec son \mbox{\hyperlink{class_arme}{Arme}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_personnage_ad179792ffe4bd5491e240f92e69e52d4}\label{class_personnage_ad179792ffe4bd5491e240f92e69e52d4}} 
+void \mbox{\hyperlink{class_personnage_ad179792ffe4bd5491e240f92e69e52d4}{proteger}} ()
+\begin{DoxyCompactList}\small\item\em Permet à un \mbox{\hyperlink{class_personnage}{Personnage}} de régénérer(m\+\_\+vie/m\+\_\+mana) avec son \mbox{\hyperlink{class_bouclier}{Bouclier}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_personnage_a02431b882a2a28c551124d3b733cc737}\label{class_personnage_a02431b882a2a28c551124d3b733cc737}} 
+void \mbox{\hyperlink{class_personnage_a02431b882a2a28c551124d3b733cc737}{boire\+Potion\+De\+Vie}} (int quantite\+Potion)
+\begin{DoxyCompactList}\small\item\em Permet à un \mbox{\hyperlink{class_personnage}{Personnage}} de gagner 60 points de m\+\_\+vie. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_personnage_a74919f942b062f97467429fbb4fba507}\label{class_personnage_a74919f942b062f97467429fbb4fba507}} 
+void \mbox{\hyperlink{class_personnage_a74919f942b062f97467429fbb4fba507}{changer\+Arme}} (std\+::string nom\+Nouvelle\+Arme, int degats\+Nouvelle\+Arme)
+\begin{DoxyCompactList}\small\item\em Permet à un \mbox{\hyperlink{class_personnage}{Personnage}} d\textquotesingle{}échanger deux \mbox{\hyperlink{class_arme}{Arme}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_personnage_a443eab244d412e66f34fb54041f9e3a6}\label{class_personnage_a443eab244d412e66f34fb54041f9e3a6}} 
+void \mbox{\hyperlink{class_personnage_a443eab244d412e66f34fb54041f9e3a6}{changer\+Bouclier}} (std\+::string nom\+Nouveau\+Bouclier, int protection\+Nouveau\+Bouclier)
+\begin{DoxyCompactList}\small\item\em Permet à un \mbox{\hyperlink{class_personnage}{Personnage}} d\textquotesingle{}échanger deux \mbox{\hyperlink{class_bouclier}{Bouclier}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_personnage_a9ec34e60ea4df84b3f8213e174a21603}\label{class_personnage_a9ec34e60ea4df84b3f8213e174a21603}} 
+bool \mbox{\hyperlink{class_personnage_a9ec34e60ea4df84b3f8213e174a21603}{est\+Vivant}} ()
+\begin{DoxyCompactList}\small\item\em Indique si un \mbox{\hyperlink{class_personnage}{Personnage}} est vivant ou non. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_personnage_a3dcbcac2812fb6da6e683cd4e2c76766}\label{class_personnage_a3dcbcac2812fb6da6e683cd4e2c76766}} 
+std\+::string \mbox{\hyperlink{class_personnage_a3dcbcac2812fb6da6e683cd4e2c76766}{get\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Renvoi le m\+\_\+nom du \mbox{\hyperlink{class_personnage}{Personnage}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_personnage_a28d20efd8d405302e5608997d1148535}\label{class_personnage_a28d20efd8d405302e5608997d1148535}} 
+int \mbox{\hyperlink{class_personnage_a28d20efd8d405302e5608997d1148535}{get\+Life}} ()
+\begin{DoxyCompactList}\small\item\em Renvoi la m\+\_\+vie du \mbox{\hyperlink{class_personnage}{Personnage}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_personnage_af77fccc17c7b6b1b91565f9263c6e49d}\label{class_personnage_af77fccc17c7b6b1b91565f9263c6e49d}} 
+std\+::string {\bfseries m\+\_\+nom}
+\item 
+\mbox{\Hypertarget{class_personnage_ab06fc45a8364d2f89b0956ec1b6e8113}\label{class_personnage_ab06fc45a8364d2f89b0956ec1b6e8113}} 
+int {\bfseries m\+\_\+vie}
+\item 
+\mbox{\Hypertarget{class_personnage_aab03671ac6596c05549e9e614bd8fc93}\label{class_personnage_aab03671ac6596c05549e9e614bd8fc93}} 
+\mbox{\hyperlink{class_arme}{Arme}} $\ast$ {\bfseries m\+\_\+arme}
+\item 
+\mbox{\Hypertarget{class_personnage_a269574f64ead0284ea425e0907ba05a4}\label{class_personnage_a269574f64ead0284ea425e0907ba05a4}} 
+\mbox{\hyperlink{class_bouclier}{Bouclier}} $\ast$ {\bfseries m\+\_\+bouclier}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Personnage.\+h\item 
+Personnage.\+cpp\end{DoxyCompactItemize}

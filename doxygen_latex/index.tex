@@ -1,0 +1,15 @@
+\hypertarget{index_intro_sec}{}\doxysection{Introduction}\label{index_intro_sec}
+Ce projet est un R\+PG basé sur console
+
+Le personnage entre dans un donjon. Il a un niveau de vie (200) et de mana (100) pour jeter des sorts. Lorsqu\textquotesingle{}il son à zero, le joueur respectivment meurt ou ne peut plus jeter de sort. Il a un sort de puissance proportionel à son niveau de mana pour tuer ses ennmis. Il a différentes armes pour tuer ses ennmis. Il a différents boucliers magics pour régenerer sa vie et son mana. Il peut se déplacer de carte en carte avec 3 possibillités de direction générées aléatoirement. Sur chaque carte visitée apparait entre 1 et 3 monstres (8 types de monstre avec leurs armes/boucliers). Lorsque tous les monstres sont morts la map peut être lootée. Il y a entre 1 et 3 objets par map (arme et/ou bouclier) dont 10 différents de chaque. Le personnage ne peut porter qu\textquotesingle{}une arme et qu\textquotesingle{}un bouclier. Les objets sont présentés les uns apres les autres. Si le joueur en choisi un, il l\textquotesingle{}équipe et change de map directement. Toute carte (re)visitée sera (ré)génerée aléatoirement. Le boss apparait sur la 4e carte visitée. Le jeu se termine lorsque le boss est vaincu ou que le joueur est mort. \hypertarget{index_install_sec}{}\doxysection{Installation}\label{index_install_sec}
+Build wih cmake version 3.\+16.\+1
+
+cd ./my\+\_\+rpg\+\_\+folder
+
+cmake .
+
+cmake --build .
+
+To Run \+:
+
+. /main 

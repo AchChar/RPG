@@ -1,0 +1,73 @@
+\hypertarget{class_maps}{}\doxysection{Maps Class Reference}
+\label{class_maps}\index{Maps@{Maps}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_maps_af3e32f0c0e807ac5ddac3e01012a7161}{Maps}} (int Seuil\+\_\+\+Boss, int x, int y)
+\item 
+\mbox{\Hypertarget{class_maps_aa3fbced631bfb5f4d1fe541a8a29384f}\label{class_maps_aa3fbced631bfb5f4d1fe541a8a29384f}} 
+\mbox{\hyperlink{class_maps_aa3fbced631bfb5f4d1fe541a8a29384f}{$\sim$\+Maps}} ()
+\begin{DoxyCompactList}\small\item\em Destructeur de \mbox{\hyperlink{class_maps}{Maps}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_maps_abb74c74a7c9290572451d8d2626de8ab}{Changer}} ()
+\item 
+int \mbox{\hyperlink{class_maps_af43df9d9548ffcd9d4cef1341a4b3f8f}{Combat}} (\mbox{\hyperlink{class_aventurier}{Aventurier}} \&\mbox{\hyperlink{class_aventurier}{Aventurier}}, int nombre\+\_\+monstres)
+\item 
+void \mbox{\hyperlink{class_maps_a3dc82c8d5decb9cf88bdf2e150ce9510}{Loot}} (\mbox{\hyperlink{class_personnage}{Personnage}} \&\mbox{\hyperlink{class_aventurier}{Aventurier}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_maps_a3714275f4d903fdda778b4cd6a03eb75}\label{class_maps_a3714275f4d903fdda778b4cd6a03eb75}} 
+int {\bfseries m\+\_\+maps\+\_\+\+Seuil\+\_\+\+Boss}
+\item 
+\mbox{\Hypertarget{class_maps_aa06273055535d69ad163b639f6e647a6}\label{class_maps_aa06273055535d69ad163b639f6e647a6}} 
+int {\bfseries m\+\_\+maps\+\_\+x}
+\item 
+\mbox{\Hypertarget{class_maps_aafb85d53b233b98db614fac32458179a}\label{class_maps_aafb85d53b233b98db614fac32458179a}} 
+int {\bfseries m\+\_\+maps\+\_\+y}
+\item 
+\mbox{\Hypertarget{class_maps_a6182f04ed8b51faad4589a1b9364c13b}\label{class_maps_a6182f04ed8b51faad4589a1b9364c13b}} 
+std\+::vector$<$ \mbox{\hyperlink{class_monstre}{Monstre}} $>$ {\bfseries m\+\_\+\+Monstres\+\_\+\+Map}
+\item 
+\mbox{\Hypertarget{class_maps_ac9d77bc426406d92fc588ea6507d7973}\label{class_maps_ac9d77bc426406d92fc588ea6507d7973}} 
+std\+::vector$<$ \mbox{\hyperlink{class_objet}{Objet}} $>$ {\bfseries m\+\_\+\+Objets\+\_\+\+Map}
+\item 
+\mbox{\Hypertarget{class_maps_a8afc0bb16858c2169897a1e36884965a}\label{class_maps_a8afc0bb16858c2169897a1e36884965a}} 
+int {\bfseries m\+\_\+cote\+\_\+bloque}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_maps_af3e32f0c0e807ac5ddac3e01012a7161}\label{class_maps_af3e32f0c0e807ac5ddac3e01012a7161}} 
+\index{Maps@{Maps}!Maps@{Maps}}
+\index{Maps@{Maps}!Maps@{Maps}}
+\doxysubsubsection{\texorpdfstring{Maps()}{Maps()}}
+{\footnotesize\ttfamily Maps\+::\+Maps (\begin{DoxyParamCaption}\item[{int}]{Seuil\+\_\+\+Boss,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+Constructeur de \mbox{\hyperlink{class_maps}{Maps}} avec un cote bloque aleatoirement
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_maps_abb74c74a7c9290572451d8d2626de8ab}\label{class_maps_abb74c74a7c9290572451d8d2626de8ab}} 
+\index{Maps@{Maps}!Changer@{Changer}}
+\index{Changer@{Changer}!Maps@{Maps}}
+\doxysubsubsection{\texorpdfstring{Changer()}{Changer()}}
+{\footnotesize\ttfamily void Maps\+::\+Changer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Demande et change les coordonnées(m\+\_\+maps\+\_\+x,m\+\_\+maps\+\_\+y) et le compteur du boss (m\+\_\+maps\+\_\+\+Seuil\+\_\+\+Boss) de la \mbox{\hyperlink{class_maps}{Maps}}\mbox{\Hypertarget{class_maps_af43df9d9548ffcd9d4cef1341a4b3f8f}\label{class_maps_af43df9d9548ffcd9d4cef1341a4b3f8f}} 
+\index{Maps@{Maps}!Combat@{Combat}}
+\index{Combat@{Combat}!Maps@{Maps}}
+\doxysubsubsection{\texorpdfstring{Combat()}{Combat()}}
+{\footnotesize\ttfamily int Maps\+::\+Combat (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_aventurier}{Aventurier}} \&}]{Aventurier,  }\item[{int}]{nombre\+\_\+monstres }\end{DoxyParamCaption})}
+
+Genere le boss ou les \mbox{\hyperlink{class_monstre}{Monstre}} et les fais se battre avec l\textquotesingle{}\mbox{\hyperlink{class_aventurier}{Aventurier}}\mbox{\Hypertarget{class_maps_a3dc82c8d5decb9cf88bdf2e150ce9510}\label{class_maps_a3dc82c8d5decb9cf88bdf2e150ce9510}} 
+\index{Maps@{Maps}!Loot@{Loot}}
+\index{Loot@{Loot}!Maps@{Maps}}
+\doxysubsubsection{\texorpdfstring{Loot()}{Loot()}}
+{\footnotesize\ttfamily void Maps\+::\+Loot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_personnage}{Personnage}} \&}]{Aventurier }\end{DoxyParamCaption})}
+
+Génère et équipe entre 1 et 4 \mbox{\hyperlink{class_objet}{Objet}} pour la \mbox{\hyperlink{class_maps}{Maps}}.
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Maps.\+h\item 
+Maps.\+cpp\end{DoxyCompactItemize}
